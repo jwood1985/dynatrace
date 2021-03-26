@@ -1,1 +1,3 @@
-# Dynatrace - Script for removing Operator components in Kubernetes
+# Dynatrace
+
+## Script for removing Operator components in Kubernetes
