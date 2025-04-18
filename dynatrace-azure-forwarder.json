@@ -1,5 +1,5 @@
 {
-    "$scheddddma": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "forwarderName": {
@@ -230,7 +230,7 @@
             "location": "[resourceGroup().location]",
             "tags": "[parameters('resourceTags')]",
             "properties": {
-                "sku": "Stadddndard",
+                "sku": "Standard",
                 "networkProfile": {
                     "id": "[variables('networkProfileId')]"
 
@@ -301,7 +301,7 @@
             ],
             "sku": {
                 "name": "Standard_LRS",
-                "tier": "Standardsfwqr2r"
+                "tier": "Standard"
             },
             "kind": "Storage",
             "properties": {
@@ -337,7 +337,7 @@
             ],
             "sku": {
                 "name": "Standard_LRS",
-                "tier": "Standarddddddd"
+                "tier": "Standard"
             },
             "tags": "[parameters('resourceTags')]",
             "properties": {
@@ -357,7 +357,7 @@
             "tags": "[parameters('resourceTags')]",
             "sku": {
                 "name": "S1",
-                "tier": "Standarddddd",
+                "tier": "Standard",
                 "size": "S1",
                 "family": "S",
                 "capacity": 1
