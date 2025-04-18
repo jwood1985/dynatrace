@@ -230,7 +230,7 @@
             "location": "[resourceGroup().location]",
             "tags": "[parameters('resourceTags')]",
             "properties": {
-                "sku": "Standard",
+                "sku": "dddd",
                 "networkProfile": {
                     "id": "[variables('networkProfileId')]"
 
