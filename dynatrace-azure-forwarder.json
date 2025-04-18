@@ -230,7 +230,7 @@
             "location": "[resourceGroup().location]",
             "tags": "[parameters('resourceTags')]",
             "properties": {
-                "sku": "dddd",
+                "sku": "Standard",
                 "networkProfile": {
                     "id": "[variables('networkProfileId')]"
 
@@ -301,7 +301,7 @@
             ],
             "sku": {
                 "name": "Standard_LRS",
-                "tier": "Standard"
+                "tier": "Standardsfwqr2r"
             },
             "kind": "Storage",
             "properties": {
